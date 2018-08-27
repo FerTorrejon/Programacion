@@ -1,0 +1,43 @@
+// Promedio.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+void main()
+
+{
+	float a, p=0;
+	cout<<"Ingrese el primer numero: "; cin>>a;
+	p=p+a;
+	cout<<"Ingrese el segundo numero: "; cin>>a;
+	p=p+a;
+	cout<<"Ingrese el tercer numero: "; cin>>a;
+	p=p+a;
+	cout<<"Ingrese el cuarto numero: "; cin>>a;
+	p=p+a;
+	cout<<"Ingrese el quinto numero: "; cin>>a;
+	p=p/5;
+	cout<<"El promedio es: "<<p;
+
+	getch(); 
+}
+
+============================PSeInt==========================
+
+Algoritmo Promedio
+	Escribir "Ingrese primer numero: ";
+	Leer a;
+	Escribir "Ingrese segundo numero: ";
+	Leer b;
+	Escribir  "Ingrese tercer numero: ";
+	Leer c;
+	Escribir "Ingrese cuarto numero: ";
+	Leer d;
+	Escribir "Ingrese quinto numero: ";
+	Leer e;
+	p<-(a+b+c+d+e)/5;
+	Escribir "El promedio es: ", p;
+	
+FinAlgoritmo
