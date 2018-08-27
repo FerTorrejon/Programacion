@@ -1,0 +1,30 @@
+// Himno.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+	cout<<"Bolivianos el hado propicio
+coronó nuestros votos y anhelos,
+es ya libre, ya libre este suelo,
+ya cesó su servil condición."<<endl;
+	
+	getch();
+}
+
+
+====================PSeInt================
+
+Proceso Himno
+
+	Escribir "Bolivianos el hado propicio
+coronó nuestros votos y anhelos,
+es ya libre, ya libre este suelo,
+ya cesó su servil condición.";
+
+FinProceso
