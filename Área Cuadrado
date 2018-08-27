@@ -1,0 +1,30 @@
+// Area cuadrado.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include <math.h>
+
+using namespace std;
+
+void main()
+{	int lado, area;
+	cout<< "Ingrese la variable: ";
+	cin>> lado;
+	area= lado*lado;
+	cout<< "El area es: "<<area;
+
+	getch();
+}
+
+
+=================================PSeInt==============================
+
+Algoritmo Cuadrado
+	Escribir "Ingrese la variable: ";
+	Leer lado;
+	area<-lado*lado;
+	Escribir "El area es: ", area;
+	
+FinAlgoritmo
