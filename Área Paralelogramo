@@ -1,0 +1,33 @@
+// Area Paralelogramo.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+ 
+using namespace std;
+void main()
+
+{	
+	int h,b,area;
+	cout<<"Ingrese la base: ";
+	cin>>b;
+	cout<<"Ingrese la altura: ";
+	cin>>h;
+	area=b*h;
+	cout<<"El area es: " <<area;
+
+	getch();
+}
+
+========================PSeInt=============
+
+Algoritmo Paralelogramo
+	Escribir "Ingrese la base: ";
+	Leer b;
+	Escribir "Ingrese la altura: ";
+	Leer h;
+	area<-b*h;
+	Escribir "El area es: ", area;
+	
+FinAlgoritmo
