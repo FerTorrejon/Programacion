@@ -24,3 +24,21 @@ void main()
 	cout<<"La distancia entre los puntos es: "<<d<<endl;
 	getch();
 }
+
+
+================Pseudocodigo==================================
+
+Proceso Dospuntos
+	escribir "Digite el valor de X1: "
+	leer x1
+	escribir "Digite el valor de y1: "
+	leer y1
+	escribir "Digite el valor de x2: "
+	leer x2
+	Escribir "Digite el valor de y2: "
+	leer y2
+	
+	distancia <- rc((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1))
+	
+	Escribir "La distancia entre los puntos es: ", distancia
+FinProceso
