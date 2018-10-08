@@ -1,0 +1,32 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main()
+  {
+    int bolita;
+    float preciototal;
+  do {
+	  cout<<"Ingrese el numero de la bolita"<<endl;
+	  cin>>bolita;
+      } while(bolita<0); 
+        do {
+	           cout<<"ingresar el precio"<<endl;
+	           cin>>preciototal;
+           } while(preciototal<=0); 
+            if(bolita==2)
+	            cout<<"el precio total es:"<<preciototal;
+            else
+	          if(bolita==4)
+		          cout<<"el precio total es:"<<preciototal*0.95;
+	          else
+		        if(bolita==6)
+			        cout<<"el precio total es:"<<preciototal*0.8;
+		        else
+			      if(bolita==8)
+				    cout<<"el precio total es:"<<preciototal*0.5;
+			      else
+				    cout<<"ERROR"<<endl;
+  	  
+   getch();
+}
