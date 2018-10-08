@@ -1,0 +1,30 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main() {
+	float precio, cantidad, descuento;
+	//Validar precio 
+	do {
+		cout<<"Ingrese el precio de la camisa: ";
+		cin>>precio;
+	} while (precio < 0);
+	//Validar cantidad
+	do {
+		cout<<"Ingresar la cantidad de camisas: ";
+		cin>>cantidad;
+	} while (cantidad < 0);
+
+	if (cantidad > 5) {
+		descuento = precio*cantidad*0.30;
+		precio = precio*cantidad - descuento;
+		cout<<"El descuento total de la mercaderia es: "<<precio<<endl;
+	} else {
+		descuento = precio*cantidad*0.20;
+		precio = precio*cantidad - descuento;
+		cout<<"El descuento total es: "<<precio<<endl;
+	}
+getch();
+}
