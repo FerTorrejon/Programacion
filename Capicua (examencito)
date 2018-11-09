@@ -1,0 +1,34 @@
+// examen.cpp : Defines the entry point for the application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include <string>
+using namespace std;
+
+bool capicua(string dato);
+void main()
+{
+	string dato;
+	int resp;
+	cout<<"Ingrese la palabra";
+	getline(cin,dato);
+	resp==capicua(dato);
+		if(resp==true)
+			cout<<"Es palindromo";
+		else
+			cout<<"No es palindromo";
+}
+bool capicua(string s)
+{
+	bool r=true;
+	int numero,a;
+	numero=s.length();
+	for(int i=0; i<numero/2; i++)
+	   { 
+		   a=numero-1-i;
+		   if(s.at(i) != s.at(a))
+	   	   return false;
+	   }
+}
